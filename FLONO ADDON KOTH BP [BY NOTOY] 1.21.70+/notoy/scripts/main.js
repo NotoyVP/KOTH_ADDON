@@ -11,7 +11,7 @@ world.beforeEvents.itemUse.subscribe(_0x4c2a53 => {
   ;
 });
 
-console.warn("Test")
+
 inicializarKothAuto();
 
 
