@@ -1,0 +1,67 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Notoy"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.41"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "Koth 1.21.70",
+		"description": "Este addon es un addon de Koth y ia :vvv, Creador §l§f[§r§cNOTOY§sVP§l§f]§r",
+		"min_engine_version": [
+			1,
+			21,
+			0
+		],
+		"uuid": "6dafa501-4382-40ff-8893-d9af4021c168",
+		"version": [
+			1,
+			1,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "a3b426b3-c29b-460a-99fa-f41fb6f6295a",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "c8d13512-c9ea-462d-afda-d0bd50a963ff",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "c164a558-d92a-4d25-a4f8-5f26f0d14a47",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.0.0-beta"
+		}, {"module_name": "@minecraft/server-ui", "version": "2.0.0-beta"}
+	]
+}
